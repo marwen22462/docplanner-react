@@ -1,0 +1,175 @@
+/*navbar*/
+.items {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu li {
+  color: #ababab;
+  list-style: none;
+}
+
+.dropdownMenu {
+  visibility: hidden;
+}
+.menu:hover .dropdownMenu {
+  visibility: visible;
+}
+.menu:hover li {
+  color: #00b39b;
+}
+/*paragraph*/
+.logo {
+  width: 250px;
+  height: 50px;
+}
+.Smalllogo {
+  margin-left: 49%;
+}
+.title {
+  color: #00bfa5;
+  display: flex;
+  justify-content: center;
+}
+.Twopara {
+  display: flex;
+  color: grey;
+}
+
+.parag {
+  margin: 3% 10%;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.Twocart {
+  display: flex;
+
+  overflow: hidden;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.mainCart {
+  margin: 2%;
+  overflow: hidden;
+}
+
+.mainCart p {
+  color: white;
+}
+.mainCart h3 {
+  color: white;
+}
+.mainCart img {
+  display: flex;
+  padding-left: 40%;
+  width: 70%;
+}
+/*doctorLink*/
+.doctorLink {
+  display: flex;
+  color: #00bfa5;
+}
+.doclogo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.doclogoli {
+  width:300px;
+  height: 70px;
+}
+/*platform*/
+.plat {
+  display: flex;
+  background-color: #daf7f6;
+}
+.platLeft {
+  margin: 2% 2%;
+}
+.platRight {
+  margin-right: 10%;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: white;
+  width: 250px;
+  height: 300px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: #00bfa5;
+}
+.title2 {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  color: #00bfa5;
+}
+.title3 {
+  display: flex;
+  justify-content: center;
+  margin: 0% 30%;
+  text-align: center;
+  color: gray;
+}
+/*citycart*/
+.city {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.city {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+.inder-cards{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.button {
+  display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+.footer1 {
+  display: flex;
+  justify-content: center;
+  color: #a8a8a8;
+}
+.footer-links {
+  padding-top: 15px;
+}
+.footer2{
+  display: flex;
+  justify-content: center;
+  color: #a8a8a8;
+}
+.footer3 {
+  display: flex;
+  justify-content: center;
+  color: #adadad;
+}
